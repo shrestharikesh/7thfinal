@@ -1,0 +1,33 @@
+{% extends "_base.html" %}
+
+{% block content %}
+
+    <div class="minified">
+        <form id="upload-form" action="{{ url_for('upload') }}" method="POST" enctype="multipart/form-data">
+                <strong>Files:</strong><br>
+                <input id="file-picker" type="file" name="file" accept="image/*" multiple>
+                <div id="msg"></div>
+                <input type="submit" value="Upload!" id="upload-button">
+        </form>
+        <div class="img1">
+            <img src="{{ url_for('static', filename = dest)}}" class="img-thumbnail">
+        </div>
+    </div>
+    <p id="searching">Searching...</p>
+    <table class="table" id="results-table">
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody id="results">
+      </tbody>
+    </table>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='test.js') }}" type="text/javascript"></script>
+
+{% endblock %}
+
