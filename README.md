@@ -1,6 +1,6 @@
 7thfinal
  ===
-This is the projecct based on image search which is done as a partial fulfillment for the bachelor degree.
+This is the project based on image search which is done as a partial fulfillment for the bachelor degree.
 Its based on image processing, where you can make a search for the visually similar images using your custom image. 
 
 Team Involved
