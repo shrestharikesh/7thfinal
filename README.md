@@ -5,10 +5,10 @@ Its based on image processing, where you can make a search for the visually simi
 
 Team Involved
 ===
-Anu Shrestha
-Rikesh Shrestha
-Roshan Shrestha
-Samikshya Shrestha
+Anu Shrestha  
+Rikesh Shrestha  
+Roshan Shrestha  
+Samikshya Shrestha  
 
 Tools and Platforms
 ===
