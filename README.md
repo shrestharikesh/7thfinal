@@ -12,8 +12,8 @@ Samikshya Shrestha
 
 Tools and Platforms
 ===
-As a programming tools we have used 
-  Python
-  OpenCV
-  JQuery
+As a programming tools we have used:  
+  Python  
+  OpenCV  
+  JQuery  
  
